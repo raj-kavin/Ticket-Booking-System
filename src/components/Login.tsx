@@ -35,7 +35,7 @@ const Login: React.FC<Props> = ({ verifyUser , getUser }) => {
         if (verify) {
             setMessage("Login Successfull")
             setTimeout(() => {
-                navigate('/dashboard')
+                navigate('/home')
                 resetForm()
                 setMessage("")
             }, 1000)
