@@ -21,7 +21,8 @@ function App() {
       amount: 99,
       movieDesc: "A mind-bending thriller where a thief who enters the dreams of others is given the chance to have his criminal history erased.",
       movieCert: "A",
-      movieVideo:"/videos/inception.mp4"
+      movieVideo:"/videos/inception.mp4",
+      movieTimings: "11:00 AM - 2:00 PM"
     },
     {
       movieImg: "/images/avatar.jpg",
@@ -30,7 +31,8 @@ function App() {
       amount: 100,
       movieDesc: "A paraplegic marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting the alien world.",
       movieCert: "U",
-      movieVideo:"/videos/avatar.mp4"
+      movieVideo:"/videos/avatar.mp4",
+      movieTimings: "10:00 AM - 1:00 PM"
     },
     {
       movieImg: "/images/titanic.jpg",
@@ -39,7 +41,8 @@ function App() {
       amount: 100,
       movieDesc: "A fictionalized account of the sinking of the Titanic, focusing on the love story of a young aristocrat and a poor artist.",
       movieCert: "A",
-      movieVideo:"/videos/titanic.mp4"
+      movieVideo:"/videos/titanic.mp4",
+      movieTimings: "11:00 AM - 2:00 PM"
     },
     {
       movieImg: "/images/joker.jpeg",
@@ -48,7 +51,8 @@ function App() {
       amount: 150,
       movieDesc: "A mentally troubled comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
       movieCert: "A",
-      movieVideo:"/videos/joker.mp4"
+      movieVideo:"/videos/joker.mp4",
+      movieTimings: "11:00 PM - 2:00 AM"
     },
     {
       movieImg: "/images/interstellar.jpg",
@@ -57,7 +61,8 @@ function App() {
       amount: 250,
       movieDesc: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
       movieCert: "U/A",
-      movieVideo:"/videos/intersteller.mp4"
+      movieVideo:"/videos/intersteller.mp4",
+      movieTimings: "10:00 PM - 1:00 PM"
     },
     {
       movieImg: "/images/dark.jpg",
@@ -66,7 +71,8 @@ function App() {
       amount: 159,
       movieDesc: "Batman faces off against the Joker, a criminal mastermind who aims to create chaos in Gotham City.",
       movieCert: "A",
-      movieVideo:"/videos/dark.mp4"
+      movieVideo:"/videos/dark.mp4",
+      movieTimings: "7:00 PM - 10:00 PM"
     },
     {
       movieImg: "/images/godfather.jpg",
@@ -75,7 +81,8 @@ function App() {
       amount: 170,
       movieDesc: "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
       movieCert: "A",
-      movieVideo:"/videos/godfather.mp4"
+      movieVideo:"/videos/godfather.mp4",
+      movieTimings: "10:00 AM - 12:00 PM"
     },
     {
       movieImg: "/images/fiction.jpg",
@@ -84,7 +91,8 @@ function App() {
       amount: 590,
       movieDesc: "The lives of two mob hitmen, a boxer, a gangster, and his wife intertwine in a series of tales of violence and redemption.",
       movieCert: "A",
-      movieVideo:"/videos/fiction.mp4"
+      movieVideo:"/videos/fiction.mp4",
+      movieTimings: "9:00 AM - 12:00 PM"
     },
     {
       movieImg: "/images/club.jpg",
@@ -93,7 +101,8 @@ function App() {
       amount: 600,
       movieDesc: "An insomniac office worker and a devil-may-care soap maker form an underground fight club.",
       movieCert: "A",
-      movieVideo:"/videos/club.mp4"
+      movieVideo:"/videos/club.mp4",
+      movieTimings: "12:00 PM - 3:00 PM"
     },
     {
       movieImg: "/images/gump.jpeg",
@@ -102,7 +111,8 @@ function App() {
       amount: 170,
       movieDesc: "The story of a slow-witted but kind-hearted man who witnesses and influences several historical events in 20th-century America.",
       movieCert: "U",
-      movieVideo:"/videos/gump.mp4"
+      movieVideo:"/videos/gump.mp4",
+      movieTimings: "11:00 AM - 2:00 PM"
     },
     {
       movieImg: "/images/matrix.jpg",
@@ -111,7 +121,8 @@ function App() {
       amount: 90,
       movieDesc: "A hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
       movieCert: "U/A",
-      movieVideo:"/videos/matrix.mp4"
+      movieVideo:"/videos/matrix.mp4",
+      movieTimings: "3:00 PM - 6:00 PM"
     },
     {
       movieImg: "/images/gladiator.jpg",
@@ -120,7 +131,8 @@ function App() {
       amount: 1000,
       movieDesc: "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
       movieCert: "U/A",
-      movieVideo:"/videos/gladiator.mp4"
+      movieVideo:"/videos/gladiator.mp4",
+      movieTimings: "3:00 AM - 6:00 PM"
     }
   ];
 

@@ -35,6 +35,7 @@ const PayPopup: React.FC<Props> = ({ isVisible, movies, index, setIsVisible, num
             movieImg: movies.movieImg,
             movieName: movies.movieName,
             noOfTickets: numOfTickets,
+            time:movies.movieTimings,
             tickets: selectedSeats,
             amount: totalAmount,
         };

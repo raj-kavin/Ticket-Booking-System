@@ -48,6 +48,7 @@ const Home: React.FC<HomeProps> = ({ movies }) => {
                   <div className="p-4 flex items-center justify-between">
                     <div>
                       <h2 className="text-xl font-semibold">{movie.movieName}</h2>
+                      <p className="text-gray-900 mt-2"><span className="font-bold">Timings:</span> {movie.movieTimings}</p>
                       <p className="text-gray-700"> <span className='font-bold'>Ratings:</span> {movie.movieRatings}</p>
                       <p className="text-gray-700"><span className='font-bold'>Price:</span> Rs {movie.amount}</p>
                     </div>

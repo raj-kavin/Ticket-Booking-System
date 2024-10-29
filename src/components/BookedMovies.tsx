@@ -28,7 +28,8 @@ const BookedMovies: React.FC<BookedMoviesProps> = ({ bookedMovies }) => {
                     />
                     <div className="p-4">
                       <h2 className="text-xl font-semibold">{movie.movieName}</h2>
-                      <p className="mt-2">Number of Tickets: {movie.noOfTickets}</p>
+                      <p className="mt-2"><span className="font-bold">Timings:</span> {movie.time}</p>
+                      <p className="mt-2"><span className="font-bold">Number of Tickets:</span> {movie.noOfTickets}</p>
                       <div className="mt-1 flex flex-wrap gap-3">
                         {movie.tickets.map((seat, index) => (
                           <span key={index} className="bg-blue-500 text-white text-xs font-bold mr-1 px-2 py-1 rounded-full">

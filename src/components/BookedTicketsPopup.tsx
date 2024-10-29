@@ -68,6 +68,7 @@ const BookedTicketsPopup: React.FC<Props> = ({ isVisible, movies, index, setIsVi
                     <div className="mt-6 sm:mt-0 sm:flex-1">
                         <h2 className="text-2xl font-semibold text-center sm:text-left">{movies[index].movieName}</h2>
                         <p className="text-gray-900 font-bold mt-4"><span className="font-bold">Description:</span> {movies[index].movieDesc}</p>
+                        <p className="text-gray-900 font-bold mt-2"><span className="font-bold">Timings:</span> {movies[index].movieTimings}</p>
                         <p className="text-gray-900 font-bold mt-2"><span className="font-bold">Ratings:</span> {movies[index].movieRatings}</p>
                         <p className="text-gray-900 font-bold mt-2"><span className="font-bold">Price:</span> Rs {movies[index].amount * numTickets}</p>
 
